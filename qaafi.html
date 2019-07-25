@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--Fancybox CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+    <!--Font-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:500,600|Open+Sans:400,600|Roboto:300,600&display=swap"
+        rel="stylesheet">
+
+    <!--Icon-->
+    <link rel="icon" href="img/logoIcon.png">
+
+    <!--StyleSheet-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Ian's Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="180px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <!--Main-->
+    <div id="qaafiBg">
+    </div>
+    <div class="divider">
+        <!--Overview-->
+        <div class="d-flex justify-content-center">
+            <div class="project-header">QAAFI</div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <h4 class="text-muted">Staff Seating and Movement Database </h4>
+        </div>
+        <div class="container">
+            <!--Problem-->
+            <div class="row">
+                <div class="col-lg-12 mt-3">
+                    <p class="subheading">Overview</p>
+                </div>
+                <div class="col-lg-1 mt-2">
+                    <p class="content-subheading">Problem</p>
+                </div>
+                <div class="col-lg-10 mt-2 ml-5">
+                    <p class="content-text">
+                        The Queensland Alliance for Agriculture and Food Innovation (QAAFI) consists of 450 researchers,
+                        post graduate students and support staff across 15 buildings. Researchers and students have
+                        complex schedules, spending a few days a week at different facilities with in consistent.
+                        Currently, all staff movements are managed by an MS Access template database and reports are
+                        done manually. This system is limited by its inability to track future seating requirements and
+                        lack of visualisation of workspace.
+                    </p>
+                </div>
+            </div>
+            <!--Background-->
+            <div class="row">
+                <div class="col-lg-1 mt-2">
+                    <p class="content-subheading">Background</p>
+                </div>
+                <div class="col-lg-10 mt-2 ml-5">
+                    <p class="content-text">The Staff Seating and Movement Database is a web application that allows for
+                        an administrator (the client) to add employees and assign them to workstations for the
+                        visualisation of management. The administrator can generate PDF reports of the current seating
+                        environment. There will be a hierarchy to the reports, being able to be generated for the
+                        organisation, facility, building, floor. Also, the administrator can view workstation and hot
+                        desk
+                        usage statistics for current date and future dates.
+
+                    </p>
+                </div>
+            </div>
+            <!-- Target Audience-->
+            <div class="row">
+                <div class="col-lg-1 mt-2">
+                    <p class="content-subheading">Audience</p>
+                </div>
+                <div class="col-lg-10 mt-2 ml-5">
+                    <p class="content-text"> This system is targeted to our client as he will be the only person
+                        who will have access and use this system to manage staff and seating. QAAFI staff members will
+                        only be able to view the floor plans availability through an overlay of workstation information
+                </div>
+            </div>
+            <!-- Role-->
+            <div class="row">
+                <div class="col-lg-1 mt-2">
+                    <p class="content-subheading">Role</p>
+                </div>
+                <div class="col-lg-10 mt-2 ml-5">
+                    <p class="content-text">
+                        UI Designer, UX Designer
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Features-->
+    <div class="divider">
+        <div class="container">
+            <div class="row">
+                <!--Feature 1-->
+                <div class="col-lg-12 mt-3">
+                    <p class="subheading">Feature One: Dashboard</p>
+                    <p class="content-text">This is the home page of the system where it displays the seating
+                        availability of the whole QAAFI organisation. The two graphs goes into more in-depth for each
+                        building at both UQ and the Department of Agriculture and shows the unavailability and
+                        availability by using blue and green. It also shows the specific number of seats taken in the
+                        current day and can also look back to the history of available seats. </p>
+
+
+                </div>
+                <div class="col-lg-12 col-sm-12 mb-3">
+                    <a href="img/qaafi/qaafi-home.jpg" data-fancybox="qaafi-feature1"
+                        data-caption="Home screen of Qaafi">
+                        <img src="img/qaafi/qaafi-home.jpg" class="border" alt="Home screen of Qaafi" width="100%">
+                    </a>
+                </div>
+
+                <!--Feature 2-->
+                <div class="col-lg-12 mt-5">
+                    <p class="subheading">Feature Two: Detailed Statistics</p>
+                    <p class="content-text">A in-depth availability of each building is presented when the user clicks
+                        on any of the building from the graph in the home page. It shows the number of staff, the amount
+                        of free seats, and number of hot desks available. Hot desks are desks that many staff can use
+                        and are not dedicated to a specific staff. </p>
+
+
+                </div>
+                <div class="col-lg-12 col-sm-12 mb-3">
+                    <a href="img/qaafi/dashboard.jpg" data-fancybox="qaafi-feature2" data-caption="Seating statistics ">
+                        <img src="img/qaafi/dashboard.jpg" class="border" alt="Seating statistics" width="100%">
+                    </a>
+                </div>
+
+                <!--Feature 3-->
+                <div class="col-lg-12 mt-5">
+                    <p class="subheading">Feature Three: Creating New Users</p>
+                    <p class="content-text">The administrator can create a new staff member/user to be able to be
+                        allocated to a seat.</p>
+                </div>
+                <div class="col-lg-12 mb-3">
+                    <a href="img/qaafi/new-user.jpg" data-fancybox="qaafi-feature3" data-caption="Creating new user">
+                        <img src="img/qaafi/new-user.jpg" class="border" alt="Creating new user" width="100%">
+                    </a>
+                </div>
+
+                <!--Feature 4-->
+                <div class="col-lg-12 mt-5">
+                    <p class="subheading">Feature Four: Floor plan</p>
+                    <p class="content-text">The whole floor plan of each building can be viewed with both available and
+                        allocated seats shown. The seats are represented by a circle dot where the occupied is navy and
+                        available seats are green </p>
+                </div>
+                <div class="col-lg-12 mb-3">
+                    <a href="img/qaafi/floormap.jpg" data-fancybox="qaafi-feature4"
+                        data-caption="Floor plan of building with staff allocated">
+                        <img src="img/qaafi/floormap.jpg" class="border"
+                            alt="Floor plan of building with staff allocated" width="100%">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Design Process-->
+    <div class="divider">
+        <div class="d-flex justify-content-center">
+            <div class="project-header">Design Process</div>
+        </div>
+
+
+        <div class="container">
+            <!--1st iteration-->
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="content-text"> The design methodology Scrum was used throughout this project because it is
+                        an iterative, incremental process which helped the team consistently develop work to be able to
+                        be aligned with the client. It provided a good structure, rules and responsibility as the team
+                        was in charge creating and adapting the work. Each sprint was two weeks long where features were
+                        developed frequently and in line with the clients expectations.
+
+                    </p>
+                </div>
+                <div class="col-lg-12 mt-4 ">
+                    <p class="subheading">Task Management: Trello</p>
+
+                    <p class="content-text">
+                        A Trello board was created to track and manage all the work so all members of the team and
+                        client can see and contribute to the work board. The product backlog was first created and
+                        prioritised with the client to gather all the requirements correctly before starting the
+                        development. Using the product backlog, specific tasks were generated for the whole team to work
+                        on during the sprint.
+
+                    </p>
+
+
+                </div>
+                <div class="col-lg-12 mt-4 ">
+                    <p class="subheading">Communication</p>
+
+                    <p class="content-text">
+                        Fortnightly sprint meetings were held with all the team and the client at the University of
+                        Queensland to communicate and review the work that was completed during the sprint. This
+                        helped both the team and the client have an understanding of what is being
+                        developed, the progress of the project, any problems that may have occurred and any necessary
+                        changes that needed to made.
+
+
+                    </p>
+
+                </div>
+                <!--Wireframes-->
+                <div class="col-lg-12 mt-4 ">
+                    <p class="subheading">Wireframes</p>
+                    <p class="content-text">
+                        I created wireframes during the first sprint for the initial design of the main page. The first
+                        wireframe consisted of the details of all the staff members for that specific facility
+                        and floor is displayed specifically the staff's name,
+                        facility, floor and seat is shown on the sidebar. This did not prove to be good as a lot of
+                        information will be displayed when there are many staff allocated and made it difficult to see
+                        the amount of seats available.
+                    </p>
+
+                    <p class="content-text">
+                        The second wireframe consisted of having the data of the seats available and unavailable for the
+                        specific floor and then list the staff that are currently allocated when the user clicked on the
+                        used category. The third wireframe showed the listed staff members with bare minimum details
+                        such as there name or staff ID and when clicked upon more details of the staff will display.
+                    </p>
+
+
+                </div>
+                <div class="col-lg-4 mt-2">
+                    <a href="img/qaafi/wireframe1.png" data-fancybox="qaafi-wireframe"
+                        data-caption="Wireframe of home screen #1">
+                        <img src="img/qaafi/wireframe1.png" class="border" alt="Wireframe of home screen #1"
+                            width="100%">
+                    </a>
+                </div>
+                <div class="col-lg-4 mt-2">
+                    <a href="img/qaafi/wireframe2.png" data-fancybox="qaafi-wireframe"
+                        data-caption="Wireframe of home screen #2">
+                        <img src="img/qaafi/wireframe2.png" class="border" alt="Wireframe of home screen #2"
+                            width="100%">
+                    </a>
+                </div>
+                <div class="col-lg-4 mt-2">
+                    <a href="img/qaafi/wireframe3.png" data-fancybox="qaafi-wireframe"
+                        data-caption="Wireframe of home screen #3">
+                        <img src="img/qaafi/wireframe3.png" class="border" alt="Wireframe of home screen #3"
+                            width="100%">
+                    </a>
+                </div>
+
+                <!--Low Fidelity-->
+                <div class="col-lg-12 mt-4 ">
+                    <p class="subheading">Low-fidelity Prototype</p>
+
+                    <p class="content-text">
+                        After completing the wireframes, the client reviewed and suggested that having a dashboard
+                        interface with all the statistics of the seating would be more beneficial for the home page so
+                        that all the information is available to view in the beginning.
+                    </p>
+                    <p class="content-text">
+                        To iterate the design of the homepage, I created a mockup design of having graphs from both UQ
+                        and the department showing the availability of each building. Above the graphs were the floor
+                        plan for the building, current amount of staff and the date.
+                    </p>
+
+                </div>
+                <div class="col-lg-6 mt-2">
+                    <a href="img/qaafi/low-fi-home.jpg" data-fancybox="qaafi-lowfi"
+                        data-caption="Low-fidelity Mockup of home screen">
+                        <img src="img/qaafi/low-fi-home.jpg" class="border" alt="Low-fidelity Mockup of home screen"
+                            width="100%">
+                    </a>
+                </div>
+                <div class="col-lg-6 mt-2">
+                    <a href="img/qaafi/low-fi-stat.jpg" data-fancybox="qaafi-lowfi"
+                        data-caption="Low-fidelity Mockup of statistics screen">
+                        <img src="img/qaafi/low-fi-stat.jpg" class="border"
+                            alt="Low-fidelity Mockup of statistics screen" width="100%">
+                    </a>
+                </div>
+
+                <!--High Fidelity Prototype-->
+                <div class="col-lg-12 mt-4 ">
+                    <p class="subheading">High-fidelity Prototype</p>
+
+                    <p class="content-text">
+                        Through iteration, this was the final design for the high fidelity prototype. You can see
+                        aspects from the low fidelity prototype that was implemented and what was changed to be the end
+                        result.
+                    </p>
+
+
+                </div>
+
+                <div class="col-lg-6 mb-3">
+                    <a href="img/qaafi/qaafi-home.jpg" data-fancybox="qaafi-hifi" data-caption="Home page ">
+                        <img src="img/qaafi/qaafi-home.jpg" class="border" alt="Home page" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-lg-6">
+                    <a href="img/qaafi/dashboard.jpg" data-fancybox="qaafi-hifi" data-caption="Seating statistics ">
+                        <img src="img/qaafi/dashboard.jpg" class="border" alt="Seating statistics" width="100%">
+                    </a>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <!--FINAL OUTCOME-->
+    <div class="divider">
+        <div class="d-flex justify-content-center">
+            <div class="project-header">Final Outcome</div>
+        </div>
+        <div class="container outcome">
+            <p class="content-text">
+                Overall, the client was very impressed and happy with the work that Team Tempus had produced for the
+                semester. Even thought this was a prototype, the ability to conduct and use most the features that was
+                requested at the beginning created a sense of what could the client use if this was fully functional. It
+                was a fantastic opportunity to work in a project with a real client and experience professional work in
+                an university environment.
+            </p>
+        </div>
+
+    </div>
+    <footer class="footer mt-5 py-3">
+        <div class="container">
+            <span class="text-muted">This site has been developed using <a href="https://getbootstrap.com/"
+                    target="_blank">Bootstrap</a>.</span>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then Jquery, Fancybox -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
+</body>
+
+</html>
