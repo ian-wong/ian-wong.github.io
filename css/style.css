@@ -186,6 +186,15 @@ a:hover {
   background-size: cover;
 }
 
+#jessBg {
+  background: url(../img/jessSwann/jess-bg.png) no-repeat center;
+  height: 25rem;
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  background-size: cover;
+}
+
 /* BUTTON
   --------------------------------------------------*/
 .info-button {
