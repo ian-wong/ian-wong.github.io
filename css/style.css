@@ -33,19 +33,31 @@ a:hover {
   margin-top: 5rem;
 }
 
-
+.navbar {
+  box-shadow: 0px 15px 20px #3f3f3f19;
+}
 
 
 /* Parallax
   --------------------------------------------------*/
 #homeParallax {
   background:
-    url('../img/background.jpg') no-repeat center fixed;
+    linear-gradient(rgba(0, 0, 0, 0.694),
+      rgba(0, 0, 0, 0.05)),
+    url('../img/background.jpg') no-repeat left fixed;
 
   height: 55rem;
   width: 100%;
   background-size: cover;
   position: relative;
+
+
+}
+
+#intro-pic {
+  margin-top: 10rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 
 }
 
@@ -67,23 +79,28 @@ a:hover {
 }
 
 .main-title {
-  font-weight: 600;
-  font-size: 60px;
+  font-weight: 500;
+  font-size: 40px;
   letter-spacing: 1.8px;
-  text-transform: uppercase;
   color: #0bc28b;
   font-family: 'Montserrat', sans-serif;
 
 
 }
 
+.main-sub {
+  font-size: 24px;
+  margin-bottom: 2rem;
+  margin-top: 14rem;
+  letter-spacing: 1.5px;
+}
+
 .main-subtitle {
   font-weight: 500;
   font-size: 40px;
   letter-spacing: 1.8px;
-  text-transform: uppercase;
   margin-top: -25px;
-  color: #282828;
+  /*color: #8fffdd;*/
   font-family: 'Montserrat', sans-serif;
 
 }
@@ -197,6 +214,23 @@ a:hover {
 
 /* BUTTON
   --------------------------------------------------*/
+.email-button {
+  background-color: #4c44dc;
+  border-radius: 0px;
+  color: #ffffff;
+  box-shadow: 2px 4px 5px #c9c9c9;
+
+}
+
+.email-button:hover {
+  background-color: #3702f9;
+  border-radius: 0px;
+  color: #ffffff;
+  box-shadow: 2px 4px 5px #c9c9c9;
+
+
+}
+
 .info-button {
   background-color: #dc445c;
   border-radius: 0px;
@@ -300,5 +334,3 @@ ul.interaction>li:before {
   line-height: 60px;
   background-color: #f5f5f5;
 }
-
-
